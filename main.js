@@ -13,7 +13,6 @@ document.getElementById("display_menu").innerHTML = htmldata;
 }
 
 
-
 function add_item(){
 var htmldata;
 var item=document.getElementById("add_item").value;
@@ -28,7 +27,7 @@ htmldata=htmldata+'<div class="cards">'
 }
 htmldata=htmldata+"</section>"
 document.getElementById("display_addedmenu").innerHTML = htmldata;
-
+}
 function add_top(){
 var item=document.getElementById("add_item").value;
 menu_list_array.push(item);
